@@ -1,4 +1,4 @@
-package com.kaungmyat.javase.chapter13;
+package com.kaungmyat.javase.chapter_13_io_try_with_resource;
 
 class Human{
     String name;
