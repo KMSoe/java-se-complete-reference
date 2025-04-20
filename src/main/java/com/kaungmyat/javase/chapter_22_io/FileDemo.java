@@ -30,8 +30,5 @@ public class FileDemo {
         System.out.println("File size "+ file.length());
 
         printDir("src/main/java/com/kaungmyat/javase");
-
-
-
     }
 }
