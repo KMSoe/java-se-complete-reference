@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class CopyFile {
     public static void main(String[] args) {
-        File inputFile = new File("./src/main/java/com/kaungmyat/javase/chapter13/ScannerDemo.java");
+        File inputFile = new File("./src/main/java/com/kaungmyat/javase/chapter_13_io_try_with_resource/ScannerDemo.java");
         File outputFile = new File("./Output.txt");
 
         System.out.println("File "+inputFile.getAbsolutePath());

@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class ReadFile {
     public static void main(String[] args) {
-        File file = new File("./src/main/java/com/kaungmyat/javase/chapter13/ScannerDemo.java");
+        File file = new File("./src/main/java/com/kaungmyat/javase/chapter_13_io_try_with_resource/ScannerDemo.java");
         System.out.println("File "+file.getAbsolutePath());
 
         try (FileInputStream fin = new FileInputStream(file)) {
